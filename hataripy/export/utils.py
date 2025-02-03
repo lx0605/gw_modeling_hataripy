@@ -10,7 +10,7 @@ from . import NetCdf, netcdf
 from . import shapefile_utils
 
 
-NC_PRECISION_TYPE = {np.float64: "f8", np.float32: "f4", np.int: "i4",
+NC_PRECISION_TYPE = {np.float64: "f8", np.float32: "f4", np.int_: "i4",
                      np.int64: "i4", np.int32: "i4"}
 
 path = os.path.split(netcdf.__file__)[0]
